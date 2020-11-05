@@ -5,6 +5,13 @@
 body {
   margin: 0;
   background: pink;
+  font-family: "Helvetica Neue";
+}
+
+h1,
+h2,
+h3 {
+  color: white;
 }
 
 nav {
@@ -15,25 +22,8 @@ nav {
 nav a {
   text-align: center;
   text-decoration: none;
-}
-
-#main {
-  display: flex;
-  min-height: calc(100vh - 40vh);
-}
-
-#main > article {
-  flex: 1;
-}
-
-#main > nav,
-#main > aside {
-  flex: 0 0 20vw;
-  background: White;
-}
-
-#main > nav {
-  order: -1;
+  color: pink;
+  font-size: 1.5rem;
 }
 
 header,
@@ -41,36 +31,107 @@ footer,
 article,
 nav,
 aside {
-  padding: 1em;
+  padding: 2rem;
 }
 
-header,
-footer {
-  background: pink;
-  height: 20vh;
+header {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+header h1 {
+  color: pink;
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
 }
 
-.footer-socials {
+footer p {
+  color: pink;
+}
+
+.body-container p {
+  color: white;
+}
+
+.primary-button {
+  color: pink;
+  background-color: white;
+  padding: 1rem;
+  border: none;
+}
+
+.sidebar {
   text-align: center;
+}
+
+.profile-image {
+  box-shadow: 0 0 0 2px #fff;
+}
+
+.primary-button:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  min-height: calc(100vh - 40vh);
+}
+
+.main > article {
+  flex: 1;
+}
+
+.main > nav,
+.main > aside {
+  flex: 0 0 20vw;
+}
+
+.main > nav {
+  order: -1;
+  background-color: white;
 }
 
 .socials i {
-  color: black;
+  color: pink;
+  padding: 0.2rem;
   text-decoration: none;
 }
 
-header {
-  text-align: center;
-  font-size: 80px;
-  padding-bottom: 2em;
-  background-color: #f2f2f2;
+/* Media Queries for Devices */
+/* smartphones, iPhone, portrait 480x320 phones */
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (max-width: 641px) {
+  .main {
+    /* Here we are stacking the flexbox vertically using `flex-direction: column` */
+    /* so that the content is more readable and user friendly on smaller devices. */
+    flex-direction: column;
+  }
+
+  body {
+    /* we want to center everything on mobile */
+    text-align: center;
+  }
+
+  nav {
+    /* we want to horizontally stack the navbar on mobile */
+    display: block;
+  }
+
+  nav a {
+    padding: 0.5rem;
+  }
 }
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+/* big landscape tablets, laptops, and desktops */
+/* hi-res laptops and desktops */
 
 /*# sourceMappingURL=style.scss.map */

@@ -7,12 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mia's Portfolio</title>
   <link href="assets/css/style.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css"> <!-- Link FontAwesome icon library -->
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" /> <!-- Link browser favicon -->
 </head>
 
 <body>
-  <header>Mia Schulze</header>
-  <div id="main">
+  <!-- Header -->
+  <header>
+    <h1>Mia Schulze</h1>
+  </header>
+
+  <!-- Flexbox Body Content -->
+  <div class="main">
     <article>
       <div class="header-container">
         <h1>Welcome to my Portfolio!</h1>
@@ -20,24 +26,23 @@
       <div class="body-container">
         <div class="bio-container">
           <p class="body-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
+            Hi, I'm Mia! I'm a bubbly, enthusastic and passionate student studying Software Development!
           </p>
         </div>
         <div class="skill-container">
           <h3>My Skills</h3>
           <p class="body-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
+            My skills consist of product design and development, including wireframing, markdown, front-end and back-end development.
+            I often use a generic web tech stack, including HTML, CSS, SCSS and JavaScript.
           </p>
         </div>
 
         <div class="interests-container">
           <h3>My Interests</h3>
           <p class="body-text">
-      
+            I enjoy building things and expressing my artistic mind. Whether this is through code
+            or drawings, I will always have time to put towards this interest. I also enjoy travelling, 
+            playing with my dog and hitting the gym.
           </p>
         </div>
       </div>
@@ -53,24 +58,24 @@
     </nav>
 
     <!-- Sidebar -->
-    <aside>
-      <img src="assets/img/dp.jpg" width="250px" height="250px" />
+    <aside class="sidebar">
+      <img class="profile-image" src="assets/img/dp.jpg" width="250px" height="250px" />
       <br /><br />
-      <a href="assets/img/mockup-resume.jpg" target="_blank" download><button>Download Resume</button></a>
+      <a href="assets/img/mockup-resume.jpg" target="_blank" download><button class="primary-button">Download Resume</button></a>
     </aside>
   </div>
+
+  <!-- Footer -->
   <footer>
-    <div class="footer-socials">
+    <div>
       <p>© Copyright Mia Schulze 2020</p>
       <div class="socials">
-        <a target="_blank" href="https://www.miasahra.com"><i class="fa fa-globe"></i></a> |
-        <a target="_blank" href="https://www.github.com/miasahra"><i class="fa fa-github"></i></a> |
-        <a href="https://twitter.com/MiaSchulze11" target="_blank"><i class="fa fa-twitter"></i></a> |
+        <a target="_blank" href="https://www.miasahra.com"><i class="fa fa-globe"></i></a>
+        <a target="_blank" href="https://www.github.com/miasahra"><i class="fa fa-github"></i></a>
+        <a href="https://twitter.com/MiaSchulze11" target="_blank"><i class="fa fa-twitter"></i></a>
         <a target="_blank" href="https://www.linkedin.com/in/mia-schulze-0a1a211b9/"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </footer>
-
 </body>
-
 </html>
