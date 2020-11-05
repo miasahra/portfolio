@@ -8,6 +8,7 @@ body {
   font-family: "Helvetica Neue";
 }
 
+/* Style standard inputs consistently */
 input[type=text],
 input[type=email],
 select,
@@ -114,6 +115,11 @@ footer p {
   color: white;
 }
 
+.header-container a {
+  text-decoration: underline;
+  color: white;
+}
+
 .primary-button {
   color: pink;
   background-color: white;
@@ -143,6 +149,41 @@ footer p {
   color: white;
 }
 
+/* My Work */
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding between each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.content h3,
+.content p {
+  color: pink;
+}
+
 /* Media Queries for Devices */
 /* smartphones, iPhone, portrait 480x320 phones */
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -151,6 +192,11 @@ footer p {
     /* Here we are stacking the flexbox vertically using `flex-direction: column` */
     /* so that the content is more readable and user friendly on smaller devices. */
     flex-direction: column;
+  }
+
+  .column {
+    /* makes the two columns stack on top of each other instead of next to each other  */
+    width: 100%;
   }
 
   body {
@@ -168,6 +214,12 @@ footer p {
   }
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width: 961px) {
+  .column {
+    /* makes a two column-layout instead of four columns */
+    width: 50%;
+  }
+}
 /* big landscape tablets, laptops, and desktops */
 /* hi-res laptops and desktops */
 
