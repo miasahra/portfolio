@@ -22,17 +22,17 @@ nav a {
   min-height: calc(100vh - 40vh);
 }
 
-#main>article {
+#main > article {
   flex: 1;
 }
 
-#main>nav,
-#main>aside {
+#main > nav,
+#main > aside {
   flex: 0 0 20vw;
   background: White;
 }
 
-#main>nav {
+#main > nav {
   order: -1;
 }
 
@@ -48,7 +48,6 @@ header,
 footer {
   background: pink;
   height: 20vh;
-
 }
 
 footer {
@@ -73,3 +72,5 @@ header {
   padding-bottom: 2em;
   background-color: #f2f2f2;
 }
+
+/*# sourceMappingURL=style.scss.map */
