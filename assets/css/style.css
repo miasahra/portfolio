@@ -185,6 +185,47 @@ footer p {
   color: pink;
 }
 
+/* Blog Page */
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.blog-column {
+  float: left;
+  width: 75%;
+}
+
+/* Fake image */
+.blog-img {
+  background-color: #aaa;
+  width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  color: pink;
+}
+
+.card h2 {
+  color: pink;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
 
 /* Media Queries for Devices */
 
@@ -225,6 +266,12 @@ footer p {
   .column {
     /* makes a two column-layout instead of four columns */
     width: 50%;
+  }
+
+  .blog-column {
+    /* when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    width: 100%;
+    padding: 0;
   }
 }
 

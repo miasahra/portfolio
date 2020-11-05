@@ -7,37 +7,37 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mia's Portfolio</title>
   <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css"> <!-- Link FontAwesome icon library -->
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" /> <!-- Link browser favicon -->
 </head>
 
 <body>
-  <header>Blog</header>
-  <div id="main">
+  <!-- Header -->
+  <header>
+    <h1>My Blogs</h1>
+  </header>
+
+  <!-- Flexbox Body Content -->
+  <div class="main">
     <article>
       <div class="header-container">
-        <h1>Welcome to my Portfolio!</h1>
+        <h1>Prepare your brains!</h1>
       </div>
-      <div class="body-container">
-        <div class="bio-container">
-          <p class="body-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-        </div>
-        <div class="skill-container">
-          <h3>My Skills</h3>
-          <p class="body-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-        </div>
-
-        <div class="interests-container">
-          <h3>My Interests</h3>
-          <p class="body-text">
-      
-          </p>
+      <!-- Blog List -->
+      <div class="row">
+        <div class="blog-column">
+          <div class="card">
+            <h2>When the journey started...</h2>
+            <h5>Date Published, April 12th, 2020</h5>
+            <img class="blog-img" style="height:200px;" src="https://miro.medium.com/max/5400/1*VcHVCyRSAOF3V6Ldi0iXOQ.jpeg"/>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+          <div class="card">
+            <h2>When the journey ended...</h2>
+            <h5>Date Published: N/A</h5>
+            <img class="blog-img" style="height:200px;" src="https://miro.medium.com/max/5400/1*VcHVCyRSAOF3V6Ldi0iXOQ.jpeg"/>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
         </div>
       </div>
     </article>
@@ -52,22 +52,24 @@
     </nav>
 
     <!-- Sidebar -->
-    <aside>
-      <img src="assets/img/dp.jpg" width="250px" height="250px" />
+    <aside class="sidebar">
+      <img class="profile-image" src="assets/img/dp.jpg" width="250px" height="250px" />
       <br /><br />
-      <button>Download Resume</button>
+      <a href="assets/img/mockup-resume.jpg" target="_blank" download><button class="primary-button">Download Resume</button></a>
     </aside>
   </div>
+
+  <!-- Footer -->
   <footer>
-    <p>© Copyright Mia Schulze 2020</p>
-    <div class="">
-      <a target="_blank" href="https://www.miasahra.com">Website</a> |
-      <a target="_blank" href="https://www.github.com/miasahra">GitHub</a> |
-      <a target="_blank" href="https://twitter.com/MiaSchulze11">Twitter</a> |
-      <a target="_blank" href="https://www.linkedin.com/in/mia-schulze-0a1a211b9/">LinkedIn</a>
+    <div>
+      <p>© Copyright Mia Schulze 2020</p>
+      <div class="socials">
+        <a target="_blank" href="https://www.miasahra.com"><i class="fa fa-globe"></i></a>
+        <a target="_blank" href="https://www.github.com/miasahra"><i class="fa fa-github"></i></a>
+        <a href="https://twitter.com/MiaSchulze11" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mia-schulze-0a1a211b9/"><i class="fa fa-linkedin"></i></a>
+      </div>
     </div>
   </footer>
-
 </body>
-
 </html>
