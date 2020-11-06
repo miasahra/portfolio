@@ -1,0 +1,185 @@
+commit 04e4dce909ce4e65a20c9ebfcf2b30425b1e8f67
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 21:02:58 2020 +1000
+
+    update readme bug
+
+commit ed3200e609ee31ea38bdc62feec44362a04639e8
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 21:00:52 2020 +1000
+
+    update sitemap
+
+commit 6655d86a5297d04b2c031931638e18ec110f1236
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 20:57:49 2020 +1000
+
+    close a tags on blogs
+
+commit 6f4bf5d2e7f10c03fd1ee0af012252f9a7cba07c
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 20:53:27 2020 +1000
+
+    update readme to include link to screenshots
+
+commit fe3fe194a05dc1dfaff8f0498ab222d44094d558
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 20:42:34 2020 +1000
+
+    add screenshots for laptop/smartphone viewports
+
+commit 60d38d40f36058f25431c88cbaf2f1749d66b25f
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 20:42:10 2020 +1000
+
+    update path for blog images
+
+commit 6d12e57b40da5ecc9fc6ccd8711002bd232c6550
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 18:42:17 2020 +1000
+
+    add referencing/sourcing to images
+
+commit 92356e49e2f0a2f0f9e0fa96af6d32d147d59bcf
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 18:22:23 2020 +1000
+
+    remove unnecessary scss sheet
+
+commit 3694769dcfef0e0ed62c8131a049a71c6b701b06
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 18:21:52 2020 +1000
+
+    fix navbar stretching
+
+commit d2ef1282483319c7dff27d637d4af6b4ea8455dd
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 18:21:41 2020 +1000
+
+    fix placeholder content
+
+commit d534adb06e81c9fee0885b4981b8c041ad6e950e
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 18:09:49 2020 +1000
+
+    remove unnecessary SRI
+
+commit 1980ef9ad9bf0af1576b3498b12566461e698c54
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 11:13:15 2020 +1000
+
+    Added dates to blog
+
+commit a41ca8a6d2ff67c3095c1f67ac3fc998ef0bbc56
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 11:02:47 2020 +1000
+
+    Added SRI hash to all CSS links in HTMl pages
+
+commit 9f1d5baeab15023593522bad171ecad6b16b20d9
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 09:54:54 2020 +1000
+
+    Finalise blog.html
+
+commit f20bb0d2a39b5648f92030317601f93b9abd315a
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 23:19:57 2020 +1000
+
+    add SRI support
+
+commit a9ef0c5100e7d4c24933da53af684e94be7d1b7b
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 23:15:27 2020 +1000
+
+    add draft blog list
+
+commit 78132987d46630deb224e73637ce0f743fe71cb2
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 22:58:05 2020 +1000
+
+    add draft gallery to my work
+
+commit e0ef3130d27a96c42690de5dba1cfa1107fe85c7
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 22:45:40 2020 +1000
+
+    update about us draft
+
+commit 15af9a358c00cf84a3fc6126919b9b622d0111c9
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 22:45:15 2020 +1000
+
+    add contact form to contact page
+
+commit d620afa2c77d18d34aeb0e78781f4a1f4a1daf18
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 22:25:48 2020 +1000
+
+    style home page
+
+commit df72ad0f1b530b662731e13e9a67629aa9ac74d1
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 21:47:25 2020 +1000
+
+    add favicon to website
+
+commit d4f185178b37e5969ef1b0e4775c1cc2fb71acee
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 21:47:13 2020 +1000
+
+    update readme
+
+commit baabb23015fede035f03b190f106778698e0cdbf
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 21:47:00 2020 +1000
+
+    add draft sitemap
+
+commit 805f7ef53b9be695e0285c02407f2e734b767820
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 20:42:45 2020 +1000
+
+    add mockup resume asset
+
+commit 45bf74e89a7ca49abb2e60026de22a38acb1546b
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 20:42:28 2020 +1000
+
+    add scss stylesheet
+
+commit e4d95e0509bb09b85506b02b8ba3a1b6256103d7
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 20:42:08 2020 +1000
+
+    add font awesome library to pages for icon use
+
+commit 8c3769ae9b5868273b329e5ddbf21dfff076dfe2
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 20:41:03 2020 +1000
+
+    add additional pages
+
+commit 76098d69e92c3b5e0233bc11444d4d65c0754190
+Author: miasahra <miasahra@hotmail.com>
+Date:   Thu Nov 5 09:25:11 2020 +1000
+
+    changes made to css
+
+commit 2e1c528d1c1d47843ea281f049aa42c928543228
+Author: Mia <72742968+miasahra@users.noreply.github.com>
+Date:   Mon Nov 2 10:27:56 2020 +1000
+
+    Update README.md
+
+commit 7f1fe9c41e95b466590720aa031cb0c561868c17
+Author: miasahra <miasahra@hotmail.com>
+Date:   Mon Nov 2 10:25:18 2020 +1000
+
+    ADD: initial skeleton
+
+commit 4090b3cfa79042f22915edb6d29cfefb137c0f7f
+Author: Mia <72742968+miasahra@users.noreply.github.com>
+Date:   Fri Oct 30 14:10:38 2020 +1000
+
+    Initial commit
