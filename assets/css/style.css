@@ -228,9 +228,6 @@ footer p {
 
 /* Media Queries for Devices/Viewports */
 
-/* smartphones, iPhone, portrait 480x320 phones */
-@media (max-width:320px) {}
-
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (max-width:641px) {
   .main {
@@ -268,14 +265,8 @@ footer p {
   }
 
   .blog-column {
-    /* when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    /* when the screen is less than 961px wide, make the two columns stack on top of each other instead of next to each other */
     width: 100%;
     padding: 0;
   }
 }
-
-/* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {}
-
-/* hi-res laptops and desktops */
-@media (min-width:1281px) {}
