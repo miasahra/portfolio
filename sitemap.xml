@@ -5,35 +5,34 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
 <url>
   <loc>https://miasahra.github.io/portfolio/</loc>
-  <lastmod>2020-11-05T10:43:43+00:00</lastmod>
+  <lastmod>2020-11-06T10:58:01+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://miasahra.github.io/portfolio/index.html</loc>
-  <lastmod>2020-11-05T10:43:43+00:00</lastmod>
+  <lastmod>2020-11-06T10:58:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://miasahra.github.io/portfolio/about.html</loc>
-  <lastmod>2020-11-05T10:43:43+00:00</lastmod>
+  <lastmod>2020-11-06T10:58:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://miasahra.github.io/portfolio/work.html</loc>
-  <lastmod>2020-11-05T10:43:43+00:00</lastmod>
+  <lastmod>2020-11-06T10:58:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://miasahra.github.io/portfolio/blog.html</loc>
-  <lastmod>2020-11-05T10:43:43+00:00</lastmod>
+  <lastmod>2020-11-06T10:58:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://miasahra.github.io/portfolio/contact.html</loc>
-  <lastmod>2020-11-05T10:43:43+00:00</lastmod>
+  <lastmod>2020-11-06T10:58:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
