@@ -23,6 +23,22 @@ See [sitemap](https://github.com/miasahra/portfolio/blob/main/sitemap.xml)
 
 ## **Screenshots:**
 
+Desktop [2560w x 1600h]
+
+- [Home [Desktop]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/home-desktop.png)
+- [About [Desktop]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/about-desktop.png)
+- [Work [Desktop]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/work-desktop.png)
+- [Blog [Desktop]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/blog-desktop.png)
+- [Contact [Desktop]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/contact-desktop.png)
+<br><br>
+
+Smartphone [375w x 812h]
+
+- [Home [Smartphone]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/home-desktop.png)
+- [About [Smartphone]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/about-smartphone.png)
+- [Work [Smartphone]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/work-smartphone.png)
+- [Blog [Smartphone]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/blog-smartphone.png)
+- [Contact [Smartphone]](https://github.com/miasahra/portfolio/blob/main/assets/img/screenshots/contact-desktop.png)
    
 ## **Target audience:**
 An employer looking to engage a dev and/or IT professional. The employer has technical knowledge relating to information technology, software development/coding, programming languages and development stacks
