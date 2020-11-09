@@ -1,7 +1,7 @@
 # Mia's Portfolio
 
 ## **A link (URL) to your published portfolio website:**
-Website Link: https://miasahra.github.io/portfolio/
+Website Link: https://miasahra.github.io/portfolio/src/
 
 ## **A link to your GitHub repo:**
 Repository Link: https://github.com/miasahra/portfolio/
