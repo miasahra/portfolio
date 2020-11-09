@@ -59,7 +59,7 @@ nav a {
 
 header,
 footer,
-article,
+section,
 nav,
 aside {
   padding: 2rem;
@@ -96,7 +96,7 @@ footer p {
   min-height: calc(100vh - 40vh);
 }
 
-.main>article {
+.main>section {
   flex: 1;
 }
 
