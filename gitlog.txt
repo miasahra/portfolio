@@ -1,3 +1,51 @@
+commit d93b680b9b31c9fc233799f74fd44bf1c82f289c
+Author: miasahra <miasahra@hotmail.com>
+Date:   Mon Nov 9 10:41:32 2020 +1000
+
+    upload wireframe designs
+
+commit e8f83f9642b80d16a6b7fdb10b2a46d5177c000a
+Author: miasahra <miasahra@hotmail.com>
+Date:   Mon Nov 9 10:41:19 2020 +1000
+
+    change article semantic to section
+
+commit 18416fa3061ae05ff881d0baf52ae2b74b98b7cd
+Author: miasahra <miasahra@hotmail.com>
+Date:   Mon Nov 9 10:29:30 2020 +1000
+
+    move screenshots to docs and update readme
+
+commit d4711f37f75521831f7bff951e83547e07c3af67
+Author: miasahra <miasahra@hotmail.com>
+Date:   Mon Nov 9 10:25:50 2020 +1000
+
+    move website to src folder
+
+commit abe01d5786048ba567d2f69d130987f8f124ce6b
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 21:21:53 2020 +1000
+
+    remove unnecessary media queries
+
+commit cba80e98398fc7f32fd25f11f9aba4608bc4e6cc
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 21:17:04 2020 +1000
+
+    clean up comments in css
+
+commit db06f4aefa9dad87d126acdd2d29c5d0adf18bfa
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 21:08:19 2020 +1000
+
+    beautify files
+
+commit d01a2500e4b1b9109a34a1bf5a33f20c4ab4e9f3
+Author: miasahra <miasahra@hotmail.com>
+Date:   Fri Nov 6 21:05:19 2020 +1000
+
+    add gitlog
+
 commit 04e4dce909ce4e65a20c9ebfcf2b30425b1e8f67
 Author: miasahra <miasahra@hotmail.com>
 Date:   Fri Nov 6 21:02:58 2020 +1000
